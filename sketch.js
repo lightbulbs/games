@@ -1,3 +1,5 @@
+test 123
+
 var button;
 var balls = [];
 
@@ -29,7 +31,7 @@ function draw() {
     balls[i].updateSpeed();
     balls[i].detectCollision();
     balls[i].disp();
-    // for (var j = 0; j < balls.length; j++){
+    // for (var j = 0; j ﬁ< balls.length; j++){
     //   if (i != j){
     //     balls[i].intersect(balls[j]);
     //   }
